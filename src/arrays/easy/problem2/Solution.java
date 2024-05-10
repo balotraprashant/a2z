@@ -1,6 +1,6 @@
 package arrays.easy.problem2;
 
-public class SecondLargestSmallestElementInArray {
+public class Solution {
     public static int[] getSecondOrderElements(int n, int []a) {
         // Write your code here.
 
