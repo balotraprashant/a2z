@@ -1,4 +1,4 @@
-package arrays.easy;
+package arrays.easy.problem1;
 
 public class LargestElementInArray {
     static int largestElement(int[] arr, int n) {
@@ -13,6 +13,6 @@ public class LargestElementInArray {
 
     public static void main(String[] args) {
         int[] arr = {3, 2, 5, 1, 7};
-        System.out.println(largestElement(arr, 5));
+        System.out.println(largestElement(arr, arr.length));
     }
 }
