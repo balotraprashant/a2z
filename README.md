@@ -12,3 +12,6 @@ This repository contains solutions to various Data Structures and Algorithms pro
   - [Problem 4: Remove Duplicates in-place from Sorted Array](src/arrays/easy/problem4/ProblemStatement.md)
 - medium
   - [Problem 2: Sort an array of 0s, 1s and 2s](src/arrays/medium/problem2/ProblemStatement.md)
+- hard
+  - [Problem 3: Three Sum | Find triplets that add up to a zero](src/arrays/hard/problem3/ProblemStatement.md)
+  - [Problem 4: Four Sum | Find Quads that add up to a target value](src/arrays/hard/problem4/ProblemStatement.md)
