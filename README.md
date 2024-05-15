@@ -16,3 +16,7 @@ This repository contains solutions to various Data Structures and Algorithms pro
 - hard
   - [Problem 3: Three Sum | Find triplets that add up to a zero](src/arrays/hard/problem3/ProblemStatement.md)
   - [Problem 4: Four Sum | Find Quads that add up to a target value](src/arrays/hard/problem4/ProblemStatement.md)
+
+## Linked List
+- Singly LinkedList
+  - [Problem 1: Construct the linked list from arr and return the head of the linked list](src/linkedlist/singlylinkedlist/problem1/ProblemStatement.md)
