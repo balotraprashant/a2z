@@ -2,6 +2,8 @@
 
 Geek loves linked list data structure. Given an array of integer arr of size n, Geek wants to construct the linked list from arr.
 
+Link: https://www.geeksforgeeks.org/problems/introduction-to-linked-list/1
+
 Construct the linked list from arr and return the head of the linked list.
 
 Example 1:
