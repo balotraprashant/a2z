@@ -20,3 +20,5 @@ This repository contains solutions to various Data Structures and Algorithms pro
 ## Linked List
 - Singly LinkedList
   - [Problem 1: Construct the linked list from arr and return the head of the linked list](src/linkedlist/singlylinkedlist/problem1/ProblemStatement.md)
+  - [Problem 2: Inserting a node in LinkedList](src/linkedlist/singlylinkedlist/problem2/ProblemStatement.md)
+  - [Problem 3: Delete Node in a Linked List](src/linkedlist/singlylinkedlist/problem3/ProblemStatement.md)
