@@ -24,3 +24,5 @@ This repository contains solutions to various Data Structures and Algorithms pro
   - [Problem 3: Delete Node in a LinkedList](src/linkedlist/singlylinkedlist/problem3/ProblemStatement.md)
   - [Problem 4: Find the length of the LinkedList [learn traversal]](src/linkedlist/singlylinkedlist/problem4/ProblemStatement.md)
   - [Problem 5: Search in LinkedList](src/linkedlist/singlylinkedlist/problem5/ProblemStatement.md)
+- Doubly LinkedList
+  - [Problem 1: Introduction to Doubly Linked List](src/linkedlist/doublylinkedlist/problem1/ProblemStatement.md)
