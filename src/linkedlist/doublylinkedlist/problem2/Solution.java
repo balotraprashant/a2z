@@ -18,7 +18,7 @@ class Node
 public class Solution
 {
 	
-	Node newNode(Node head, int data)
+	static Node newNode(Node head, int data)
 	{
 		Node n = new Node(data);
 		if(head == null)
@@ -33,7 +33,7 @@ public class Solution
 	}
 	
 	
-	void printList(Node node)
+	static void printList(Node node)
 	{
 		Node temp = node;
 		while(temp.next != null)
@@ -69,7 +69,7 @@ public class Solution
 			for(int i=0;i<n;i++)
 			{
 				int x = sc.nextInt();
-				head = DLL.newNode(head,x);
+				head = Solution.newNode(head,x);
 			    if(root == null)    root = head;
 			}
 			head = root;
@@ -78,8 +78,8 @@ public class Solution
 			
 		    DLinkedList g = new DLinkedList();
 		    g.addNode(head,pos,data);
-			
-			DLL.printList(head);
+
+			Solution.printList(head);
 			while(head.next != null)
 			{
 				temp = head;
