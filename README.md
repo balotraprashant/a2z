@@ -26,3 +26,5 @@ This repository contains solutions to various Data Structures and Algorithms pro
   - [Problem 5: Search in LinkedList](src/linkedlist/singlylinkedlist/problem5/ProblemStatement.md)
 - Doubly LinkedList
   - [Problem 1: Introduction to Doubly Linked List](src/linkedlist/doublylinkedlist/problem1/ProblemStatement.md)
+  - [Problem 2: Doubly linked list Insertion at given position](src/linkedlist/doublylinkedlist/problem2/ProblemStatement.md)
+  - [Problem 3: Delete node in Doubly Linked List](src/linkedlist/doublylinkedlist/problem3/ProblemStatement.md)
