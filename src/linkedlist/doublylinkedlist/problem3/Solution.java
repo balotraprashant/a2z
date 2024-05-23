@@ -95,39 +95,36 @@ class Node
 public class Solution
 {
     // function returns the head of the linkedlist
-    Node deleteNode(Node head,int x)
-    // Your code here
-    {
-        if(head==null||x==0)
-        {
+    Node deleteNode(Node head,int x) {
+	    // Your code here
+        if(head==null||x==0) {
             return null;
         }
-        if(x==1)
-        {
+        
+        if(x==1) {
             head=head.next;
             head.prev=null;
             return head;
         }
-        Node temp=head;
-        int i;
-        for(i=1;i<=x-1;i++)
-        {
-            if(temp!=null)
-            {
-                temp=temp.next;
-            }
+        
+        Node curr = head;
+        int i=1;
+        
+        while(i<x) {
+            curr = curr.next;
+            i++;
         }
-        if(temp.next==null)
-        {
-            temp.prev.next=null;
-            return head;
-
+        
+        Node temp1 = curr.prev!=null ? curr.prev : null;
+        Node temp2 = curr.next!=null ? curr.next : null;
+        
+        if(temp1!=null) {
+            temp1.next = temp2;        
         }
-        else
-        {
-            temp.prev.next=temp.next;
-            temp.next.prev=temp.prev;
-            return head;
+        if(temp2!=null) {
+            temp2.prev = temp1;   
         }
+        
+        return head;
     }
 }
