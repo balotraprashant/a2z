@@ -1,6 +1,6 @@
 package arrays.easy.problem6;
 
-class Solution {
+public class Solution {
     public void moveZeroes(int[] nums) {
         // int n=nums.length;
         // int left = 0;
@@ -26,6 +26,8 @@ class Solution {
         //     }
         // }
 
+        // Simple and Fastest Approach
+
         int left = 0;
         for (int right = 0 ; right < nums.length ; right++) {
             if (nums[right] != 0) {
@@ -36,5 +38,31 @@ class Solution {
         for (; left < nums.length ; left++) {
             nums[left] = 0;
         }
+
+        // Optimal Approach
+
+        // int j = -1;
+        // //place the pointer j:
+        // for (int i = 0; i < nums.length; i++) {
+        //     if (nums[i] == 0) {
+        //         j = i;
+        //         break;
+        //     }
+        // }
+
+        // //no non-zero elements:
+        // if (j == -1) return;
+
+        // //Move the pointers i and j
+        // //and swap accordingly:
+        // for (int i = j + 1; i < nums.length; i++) {
+        //     if (nums[i] != 0) {
+        //         //swap a[i] & a[j]:
+        //         int tmp = nums[i];
+        //         nums[i] = nums[j];
+        //         nums[j] = tmp;
+        //         j++;
+        //     }
+        // }
     }
 }
