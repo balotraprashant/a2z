@@ -38,4 +38,4 @@ The algorithm will be the following:
 
 - First, we will run a loop from i=0 to nums.length-1, if nums[i]!=0, we will assign nums[left] = nums[i] and increment left.
 - If nums[i]==0, we'll just continue.
-- Finally we will run another loop from left to nums.length-1 and fill remaining elements with 0.
+- Finally, we will run another loop from left to nums.length-1 and fill remaining elements with 0.
