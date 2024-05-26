@@ -11,6 +11,8 @@ This repository contains solutions to various Data Structures and Algorithms pro
   - [Problem 3: Check If the given array is sorted](src/arrays/easy/problem3/ProblemStatement.md)
   - [Problem 4: Remove Duplicates in-place from Sorted Array](src/arrays/easy/problem4/ProblemStatement.md)
   - [Problem 5: Rotate array by K elements](src/arrays/easy/problem5/ProblemStatement.md)
+  - [Problem 6: Move Zeros to end](src/arrays/easy/problem6/ProblemStatement.md)
+  - [Problem 7: Linear Search](src/arrays/easy/problem7/ProblemStatement.md)
 - medium
   - [Problem 1: Two Sum | Check if a pair with given sum exists in Array](src/arrays/medium/problem1/ProblemStatement.md)
   - [Problem 2: Sort an array of 0s, 1s and 2s](src/arrays/medium/problem2/ProblemStatement.md)
