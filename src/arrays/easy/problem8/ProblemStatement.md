@@ -1,5 +1,7 @@
 **Problem Statement**: Given two sorted arrays, arr1, and arr2 of size n and m. Find the union of two sorted arrays.
 
+Link: https://www.geeksforgeeks.org/problems/union-of-two-sorted-arrays-1587115621/1
+
 The union of two arrays can be defined as the common and distinct elements in the two arrays.
 
 NOTE: Elements in the union should be in ascending order.
