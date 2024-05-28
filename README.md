@@ -14,6 +14,7 @@ This repository contains solutions to various Data Structures and Algorithms pro
   - [Problem 6: Move Zeros to end](src/arrays/easy/problem6/ProblemStatement.md)
   - [Problem 7: Searching an element in a sorted array](src/arrays/easy/problem7/ProblemStatement.md)
   - [Problem 8: Union of Two Sorted Arrays](src/arrays/easy/problem8/ProblemStatement.md)
+  - [Problem 9: Find the missing number in an array](src/arrays/easy/problem9/ProblemStatement.md)
 - medium
   - [Problem 1: Two Sum | Check if a pair with given sum exists in Array](src/arrays/medium/problem1/ProblemStatement.md)
   - [Problem 2: Sort an array of 0s, 1s and 2s](src/arrays/medium/problem2/ProblemStatement.md)
