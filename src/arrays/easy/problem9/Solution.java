@@ -2,15 +2,28 @@ package arrays.easy.problem9;
 
 public class Solution {
   // My BruteForce Approach
-    public int missingNumber(int[] nums) {
-        Arrays.sort(nums);
+  // public int missingNumber(int[] nums) {
+  //     Arrays.sort(nums);
 
-        for(int i=0; i<nums.length; i++) {
-            if(nums[i]!=i) {
-                return i;
-            }
+  //     for(int i=0; i<nums.length; i++) {
+  //         if(nums[i]!=i) {
+  //             return i;
+  //         }
+  //     }
+
+  //     return nums.length;
+  // }
+
+  // Submission Approach - Optimal Solution
+    public int missingNumber(int[] nums) {
+        int n = nums.length;
+        long expectedSum = (n * (n+1))/2;
+        long actualSum = 0;
+
+        for(int i=0; i<n; i++) {
+            actualSum+= nums[i];
         }
 
-        return nums.length;
+        return (int)(expectedSum-actualSum);
     }
 }
