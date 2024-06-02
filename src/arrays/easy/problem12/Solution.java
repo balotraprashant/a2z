@@ -57,4 +57,22 @@ public class Solution {
 
         return maxLen;
     }
+
+    public static int lenOfLongSubarr (int A[], int N, int K) {
+        //Complete the function
+        int curr = 0,max = 0;
+        HashMap<Integer, Integer> map = new HashMap<>();
+        for (int i = 0; i < N; i++) {
+            curr += A[i];
+            if (curr == K) {
+                max = Math.max(max,i-0+1);
+            }
+            if (map.containsKey(curr - K)) {
+                max = Math.max(max,i-map.get(curr - K));
+            }
+            if(!map.containsKey(curr))
+                map.put(curr, i);
+        }
+        return max;
+    }
 }
