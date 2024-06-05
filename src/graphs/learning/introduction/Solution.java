@@ -19,8 +19,8 @@ class Driver {
   }
 }
 
-// There are total n*(n-1)/2 possible edges. For every edge, there are to possible options, either we pick it or don\'t pick.
-// So total number of possible graphs is 2n(n-1)/2.
+// There are total n*(n-1)/2 possible edges. For every edge, there are two possible options, either we pick it or don\'t pick.
+// So total number of possible graphs is 2^(n(n-1)/2).
 
 public class Solution {
   static long count(int n) {
