@@ -14,8 +14,8 @@ After traversing the whole array, we will check the element stored in the variab
 Approach: 
 
 - Initialize 2 variables:
-  Count –  for tracking the count of element
-  Element – for which element we are counting
+  - Count –  for tracking the count of element
+  - Element – for which element we are counting
 
 - Traverse through the given array.
 - If Count is 0 then store the current element of the array as Element.
