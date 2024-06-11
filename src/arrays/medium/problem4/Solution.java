@@ -55,6 +55,8 @@ class Solution {
             }
         }
 
+        System.out.print("start : " + ansStart + " ; " + "end  : " + ansEnd);
+
         // To consider the sum of the empty subarray
         // uncomment the following check:
 
