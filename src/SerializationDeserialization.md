@@ -2,5 +2,4 @@
 
 **Deserialization** is the exact opposite process of serialization where the byte data type stream is converted back to an object in the memory. The best part about these mechanisms is that both are JVM-independent, meaning you serialize on one JVM and de-serialize on another.
 
-![Uploading image.png…]()
 
