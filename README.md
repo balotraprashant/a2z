@@ -24,6 +24,8 @@ This repository contains solutions to various Data Structures and Algorithms pro
   - [Problem 3: Majority Element (>n/2 times)](src/arrays/medium/problem3/ProblemStatement.md)
   - [Problem 4: Kadane's Algorithm, maximum subarray sum](src/arrays/medium/problem4/ProblemStatement.md)
   - [Problem 5: Best Time to Buy and Sell Stock](src/arrays/medium/problem5/ProblemStatement.md)
+  - [Problem 6: Rearrange Array Elements by Sign](src/arrays/medium/problem6/ProblemStatement.md)
+  - [Problem 7: Next Permutation](src/arrays/medium/problem7/ProblemStatement.md)
 - hard
   - [Problem 3: Three Sum | Find triplets that add up to a zero](src/arrays/hard/problem3/ProblemStatement.md)
   - [Problem 4: Four Sum | Find Quads that add up to a target value](src/arrays/hard/problem4/ProblemStatement.md)
