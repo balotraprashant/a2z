@@ -28,6 +28,7 @@ This repository contains solutions to various Data Structures and Algorithms pro
   - [Problem 7: Next Permutation](src/arrays/medium/problem7/ProblemStatement.md)
   - [Problem 8: Leaders in an Array](src/arrays/medium/problem8/SolutionApproach.md)
   - [Problem 9: Longest Consecutive Sequence in an Array](src/arrays/medium/problem9/SolutionApproach.md)
+  - [Problem 10: Zero Set Matrix](src/arrays/medium/problem10/SolutionApproach.md)
 - hard
   - [Problem 3: Three Sum | Find triplets that add up to a zero](src/arrays/hard/problem3/ProblemStatement.md)
   - [Problem 4: Four Sum | Find Quads that add up to a target value](src/arrays/hard/problem4/ProblemStatement.md)
