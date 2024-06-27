@@ -1,5 +1,7 @@
 package arrays.medium.problem9;
 
+import java.util.Arrays;
+
 class Solution {
     public int longestConsecutive(int[] nums) {
         
