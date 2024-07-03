@@ -31,6 +31,7 @@ This repository contains solutions to various Data Structures and Algorithms pro
   - [Problem 10: Zero Set Matrix](src/arrays/medium/problem10/SolutionApproach.md)
   - [Problem 11: Rotate Matrix by 90 degree](src/arrays/medium/problem11/SolutionApproach.md)
   - [Problem 12: Spiral Traversal of Matrix](src/arrays/medium/problem12/SolutionApproach.md)
+  - [Problem 13: Count subarrays with given sum](src/arrays/medium/problem13/SolutionApproach.md)
 - hard
   - [Problem 3: Three Sum | Find triplets that add up to a zero](src/arrays/hard/problem3/ProblemStatement.md)
   - [Problem 4: Four Sum | Find Quads that add up to a target value](src/arrays/hard/problem4/ProblemStatement.md)
