@@ -34,6 +34,7 @@ This repository contains solutions to various Data Structures and Algorithms pro
   - [Problem 13: Count subarrays with given sum](src/arrays/medium/problem13/SolutionApproach.md)
 - hard
   - [Problem 1: Pascal's Triangle](src/arrays/hard/problem1/SolutionApproach.md)
+  - [Problem 2: Majority Element (n/3 times)](src/arrays/hard/problem2/SolutionApproach.md)
   - [Problem 3: Three Sum | Find triplets that add up to a zero](src/arrays/hard/problem3/ProblemStatement.md)
   - [Problem 4: Four Sum | Find Quads that add up to a target value](src/arrays/hard/problem4/ProblemStatement.md)
 
