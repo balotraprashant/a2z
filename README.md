@@ -54,7 +54,7 @@ This repository contains solutions to various Data Structures and Algorithms pro
 
 ## Binary Search
 - On 1D Arrays
-  - [Problem 1: Binary Search to find X in sorted array](src/binaysearch/ononedarrays/problem1/ProblemStatement.md)
+  - [Problem 1: Binary Search to find X in sorted array](src/binarysearch/ononedarrays/problem1/ProblemStatement.md)
 
 
 ## Graphs
