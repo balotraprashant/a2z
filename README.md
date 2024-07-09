@@ -51,6 +51,12 @@ This repository contains solutions to various Data Structures and Algorithms pro
   - [Problem 3: Delete node in Doubly Linked List](src/linkedlist/doublylinkedlist/problem3/ProblemStatement.md)
   - [Problem 4: Reverse a Doubly Linked List](src/linkedlist/doublylinkedlist/problem4/ProblemStatement.md)
 
+
+## Binary Search
+- On 1D Arrays
+  - [Problem 1: Binary Search to find X in sorted array](src/binaysearch/ononedarrays/problem1/ProblemStatement.md)
+
+
 ## Graphs
 - learning
   - [Introduction: Graph and Types](src/graphs/learning/introduction/Introduction.md)
