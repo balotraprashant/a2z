@@ -1,4 +1,4 @@
-package stackandqueues.problem1;
+package stackandqueues.easy.problem1;
 
 import java.util.Stack;
 
