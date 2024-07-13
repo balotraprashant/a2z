@@ -40,7 +40,7 @@ This repository contains solutions to various Data Structures and Algorithms pro
 
 ## Stack and Queues
 - easy
-  - [Problem 1: Valid Parentheses](src/stackandqueues/easy/problem1/Statement.md)
+  - [Problem 1: Valid Parentheses](src/stackandqueues/easy/problem1/Description.md)
 
 ## Linked List
 - Singly LinkedList
