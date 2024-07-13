@@ -38,6 +38,10 @@ This repository contains solutions to various Data Structures and Algorithms pro
   - [Problem 3: Three Sum | Find triplets that add up to a zero](src/arrays/hard/problem3/ProblemStatement.md)
   - [Problem 4: Four Sum | Find Quads that add up to a target value](src/arrays/hard/problem4/ProblemStatement.md)
 
+## Stack and Queues
+- easy
+  - [Problem 1: Valid Parentheses](src/stackandqueues/easy/problem1/Statement.md)
+
 ## Linked List
 - Singly LinkedList
   - [Problem 1: Construct the linked list from arr and return the head of the LinkedList](src/linkedlist/singlylinkedlist/problem1/ProblemStatement.md)
