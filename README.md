@@ -54,6 +54,9 @@ This repository contains solutions to various Data Structures and Algorithms pro
   - [Problem 2: Doubly linked list Insertion at given position](src/linkedlist/doublylinkedlist/problem2/ProblemStatement.md)
   - [Problem 3: Delete node in Doubly Linked List](src/linkedlist/doublylinkedlist/problem3/ProblemStatement.md)
   - [Problem 4: Reverse a Doubly Linked List](src/linkedlist/doublylinkedlist/problem4/ProblemStatement.md)
+ 
+- Easy
+  - [Problem 1: Merge two sorted Linked Lists](src/linkedlist/easy/problem1/Description.md)
 
 
 ## Binary Search
