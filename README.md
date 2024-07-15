@@ -41,7 +41,7 @@ This repository contains solutions to various Data Structures and Algorithms pro
 ## Stack and Queues
 - easy
   - [Problem 1: Valid Parentheses](src/stackandqueues/easy/problem1/Description.md)
-  - [Problem 2: Valid Parentheses](src/stackandqueues/easy/problem2/Description.md)
+  - [Problem 2: Implement Queue using Arrays](src/stackandqueues/easy/problem2/Description.md)
   - [Problem 3: Implement Stack Using Arrays](src/stackandqueues/easy/problem3/Description.md)
 
 ## Linked List
