@@ -3,7 +3,10 @@ package stackandqueues.easy.problem2;
 //{ Driver Code Starts
 import java.util.Scanner;
 
-public class Solution
+//{ Driver Code Starts
+import java.util.Scanner;
+
+class GfG
 {
 	public static void main(String args[])
 	{
@@ -58,15 +61,21 @@ class MyQueue {
 	void push(int x)
 	{
 	    // Your code here
-	} 
+	    arr[rear] = x;
+	    rear++;
+	}
 
     //Function to pop an element from queue and return that element.
 	int pop()
 	{
 		// Your code here
+		if(front==rear) return -1;
+		
+		int popped = arr[front];
+		front++;
+		return popped;
 	} 
 }
-
 
 
 
