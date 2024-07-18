@@ -1,11 +1,14 @@
 package stackandqueues.easy.problem4;
 
+import java.util.LinkedList;
+import java.util.Queue;
+
 class MyStack {
 
-    Queue < Integer > q;
+    Queue< Integer > q;
 
     public MyStack() {
-        q = new LinkedList < > ();
+        q = new LinkedList<>();
     }
     
     public void push(int x) {
