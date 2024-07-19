@@ -1,8 +1,10 @@
 package stackandqueues.easy.problem5;
 
+import java.util.Stack;
+
 class MyQueue {
 
-    Stack <Integer> input = new Stack<>();
+    Stack<Integer> input = new Stack<>();
     Stack <Integer> output = new Stack<>();
 
     public MyQueue() {
