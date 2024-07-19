@@ -45,6 +45,7 @@ This repository contains solutions to various Data Structures and Algorithms pro
   - [Problem 3: Implement Stack Using Arrays](src/stackandqueues/easy/problem3/Description.md)
   - [Problem 4: Implement Stack Using Queues](src/stackandqueues/easy/problem4/Description.md)
   - [Problem 5: Implement Queue Using Stacks](src/stackandqueues/easy/problem5/Description.md)
+  - [Problem 6: Implement Stack using Linkedlist](src/stackandqueues/easy/problem6/Description.md)
 
 ## Linked List
 - Singly LinkedList
