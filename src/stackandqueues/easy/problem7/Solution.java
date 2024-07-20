@@ -14,7 +14,7 @@ class QueueNode
 }
 
 class GfG {
-	public static void main(String args[])
+	public static void main(String[] args)
 	{
 		 Scanner sc = new Scanner(System.in);
 		 int t=sc.nextInt();
@@ -24,8 +24,7 @@ class GfG {
 			int Q = sc.nextInt();
 			while(Q>0)
 			{
-				int QueryType = 0;
-				QueryType = sc.nextInt();
+				int QueryType = sc.nextInt();
 				if(QueryType == 1)
 				{
 					int a = sc.nextInt();
@@ -38,7 +37,7 @@ class GfG {
 				}
 				Q--;
 			}
-			System.out.println("");
+			System.out.println();
 			t--;
 		 }
 	}
