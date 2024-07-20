@@ -78,11 +78,11 @@ class MyStack {
     // 3
     // _ -> 3
     // 28
-    // 28 95
-    // 28 95 71
-    // 28 95 -> 71
-    // 28 95 48
-    // 28 95 48 34
+    // 95 28 
+    // 71 95 28 
+    // 95 28 -> 71
+    // 48 95 28  
+    // 34 48 95 28 
     // _ -> 34 48 95 28
     // 49
     // _ -> 49
@@ -91,6 +91,8 @@ class MyStack {
     // 38
     // _ -> 38
     // 61
+    
+    // Output: 3 71 34 48 95 28 49 59 38
     
     // Function to remove an item from top of the stack.
     int pop() {
@@ -103,4 +105,5 @@ class MyStack {
         return value;
     }
 }
+
 
