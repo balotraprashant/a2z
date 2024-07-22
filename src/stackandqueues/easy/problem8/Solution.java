@@ -1,5 +1,7 @@
 package stackandqueues.easy.problem8;
 
+import java.util.Stack;
+
 class Pair {
     int x, y;
     Pair(int x, int y) {
@@ -10,7 +12,7 @@ class Pair {
 
 class MinStack {
 
-    Stack <Long> st = new Stack<Long>();
+    Stack<Long> st = new Stack<Long>();
     Long mini;
 
     /** initialize your data structure here. */
