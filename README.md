@@ -33,6 +33,7 @@ This repository contains solutions to various Data Structures and Algorithms pro
   - [Problem 12: Spiral Traversal of Matrix](src/arrays/medium/problem12/SolutionApproach.md)
   - [Problem 13: Count subarrays with given sum](src/arrays/medium/problem13/SolutionApproach.md)
   - [Problem 14: Largest subarray with 0 sum](src/arrays/medium/problem14/Description.md)
+  - [Problem 15: Count the number of subarrays with given xor K](src/arrays/medium/problem15/Description.md)
 - hard
   - [Problem 1: Pascal's Triangle](src/arrays/hard/problem1/SolutionApproach.md)
   - [Problem 2: Majority Element (n/3 times)](src/arrays/hard/problem2/SolutionApproach.md)
