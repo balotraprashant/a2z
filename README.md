@@ -41,6 +41,7 @@ This repository contains solutions to various Data Structures and Algorithms pro
   - [Problem 4: Four Sum | Find Quads that add up to a target value](src/arrays/hard/problem4/ProblemStatement.md)
   - [Problem 5: Merge Overlapping Subintervals](src/arrays/hard/problem5/Description.md)
   - [Problem 6: Merge two sorted arrays without extra space](src/arrays/hard/problem6/Description.md)
+  - [Problem 7: Find the repeating and missing number](src/arrays/hard/problem7/Description.md)
 
 ## Stack and Queues
 - easy
