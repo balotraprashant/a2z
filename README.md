@@ -42,6 +42,7 @@ This repository contains solutions to various Data Structures and Algorithms pro
   - [Problem 5: Merge Overlapping Subintervals](src/arrays/hard/problem5/Description.md)
   - [Problem 6: Merge two sorted arrays without extra space](src/arrays/hard/problem6/Description.md)
   - [Problem 7: Find the repeating and missing number](src/arrays/hard/problem7/Description.md)
+  - [Problem 8: Count inversions in an array](src/arrays/hard/problem8/Description.md)
 
 ## Stack and Queues
 - easy
