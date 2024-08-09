@@ -1,3 +1,5 @@
+package arrays.hard.problem10;
+
 class Solution {
     public int reversePairs(int[] nums) {
         int n = nums.length;
