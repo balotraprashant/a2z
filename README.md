@@ -3,6 +3,10 @@ This repository contains solutions to various Data Structures and Algorithms pro
 
 ## Sorting Techniques
 - [Selection Sort](src/sorting)
+- [Bubble Sort](src/sorting)
+- [Insertion Sort](src/sorting)
+- [Merge Sort](src/sorting)
+- [Quick Sort](src/sorting)
   
 ## Arrays
 - easy
