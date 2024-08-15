@@ -2,11 +2,11 @@
 This repository contains solutions to various Data Structures and Algorithms problems.
 
 ## Sorting Techniques
-- [Selection Sort](src/sorting)
-- [Bubble Sort](src/sorting)
-- [Insertion Sort](src/sorting)
-- [Merge Sort](src/sorting)
-- [Quick Sort](src/sorting)
+- [Selection Sort](src/sorting/selection/Description.md)
+- [Bubble Sort](src/sorting/bubble/Description.md)
+- [Insertion Sort](src/sorting/insertion/Description.md)
+- [Merge Sort](src/sorting/merge/Description.md)
+- [Quick Sort](src/sorting/quick/Description.md)
   
 ## Arrays
 - easy
