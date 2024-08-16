@@ -27,3 +27,89 @@ From the explanation, we can see that after completing the steps, pivot 4 is in 
 So, from the above intuition, we can get a clear idea that we are going to use recursion in this algorithm.
 
 To summarize, the main intention of this process is to place the pivot, after each recursion call, at its final position, where the pivot should be in the final sorted array.
+
+**Pseudocode:**
+
+![image](https://github.com/user-attachments/assets/49d88665-3c63-4c6f-be5c-eddef699fac2)
+
+Now, let’s understand how to implement the partition() function to get the partition index.
+
+- Inside the function, we will first select the pivot(i.e. arr[low] in our case).
+- Now, we will again take two-pointers i and j. The i pointer points to low and the j points to high.
+- Now, the pointer i will move forward and find the first element that is greater than the pivot. Similarly, the pointer j will move backward and find the first element that is smaller than the pivot.
+- Here, we need to add some checks like i <= high-1 and j >= low+1. Because it might happen that i is standing at high and trying to proceed or j is standing at low and trying to exceed.
+- Once we find such elements i.e. arr[i] > pivot and arr[j] < pivot, and i < j, we will swap arr[i] and arr[j].
+- We will continue step 3 and step 4, until j becomes smaller than i.
+- Finally, we will swap the pivot element(i.e. arr[low]) with arr[j] and will return the index j i.e. the partition index.
+
+**Pseudocode:**
+
+![image](https://github.com/user-attachments/assets/85a65ace-f63f-4751-b22f-3eb688f52a6e)
+
+```
+import java.util.*;
+
+class Solution {
+    static int partition(List<Integer> arr, int low, int high) {
+        int pivot = arr.get(low);
+        int i = low;
+        int j = high;
+
+        while (i < j) {
+            while (arr.get(i) <= pivot && i <= high - 1) {
+                i++;
+            }
+
+            while (arr.get(j) > pivot && j >= low + 1) {
+                j--;
+            }
+            if (i < j) {
+                int temp = arr.get(i);
+                arr.set(i, arr.get(j));
+                arr.set(j, temp);
+            }
+        }
+        int temp = arr.get(low);
+        arr.set(low, arr.get(j));
+        arr.set(j, temp);
+        return j;
+    }
+
+    static void qs(List<Integer> arr, int low, int high) {
+        if (low < high) {
+            int pIndex = partition(arr, low, high);
+            qs(arr, low, pIndex - 1);
+            qs(arr, pIndex + 1, high);
+        }
+    }
+    public static List<Integer> quickSort(List<Integer> arr) {
+        // Write your code here.
+        qs(arr, 0, arr.size() - 1);
+        return arr;
+    }
+}
+
+public class tUf {
+    public static void main(String args[]) {
+        List<Integer> arr = new ArrayList<>();
+        arr = Arrays.asList(new Integer[] {4, 6, 2, 5, 7, 9, 1, 3});
+        int n = arr.size();
+        System.out.println("Before Using insertion Sort: ");
+        for (int i = 0; i < n; i++) {
+            System.out.print(arr.get(i) + " ");
+        }
+        System.out.println();
+        arr = Solution.quickSort(arr);
+        System.out.println("After insertion sort: ");
+        for (int i = 0; i < n; i++) {
+            System.out.print(arr.get(i) + " ");
+        }
+        System.out.println();
+    }
+
+}
+
+
+
+
+```
