@@ -45,4 +45,39 @@ The selected element at index i=4 is 20. Now, we will try to move leftwards and 
 The selected element at index i=5 is 9. Now, we will try to move leftwards and put 9 in its correct position. Here, the correct position for 9 will be index 0. So, we need to swap adjacent elements until 9 reaches index 0. Now, the whole array is sorted.
 
 ![image](https://github.com/user-attachments/assets/d2d192d9-55ab-45b4-8cc5-d2f36de3137f)
-**
+
+
+```
+import java.util.*;
+
+public class Main {
+    static void insertion_sort(int[] arr, int n) {
+        for (int i = 0; i <= n - 1; i++) {
+            int j = i;
+            while (j > 0 && arr[j - 1] > arr[j]) {
+                int temp = arr[j - 1];
+                arr[j - 1] = arr[j];
+                arr[j] = temp;
+                j--;
+            }
+        }
+
+        System.out.println("After insertion sort: ");
+        for (int i = 0; i < n; i++) {
+            System.out.print(arr[i] + " ");
+        }
+        System.out.println();
+    }
+    public static void main(String args[]) {
+        int arr[] = {13, 46, 24, 52, 20, 9};
+        int n = arr.length;
+        System.out.println("Before Using insertion Sort: ");
+        for (int i = 0; i < n; i++) {
+            System.out.print(arr[i] + " ");
+        }
+        System.out.println();
+        insertion_sort(arr, n);
+    }
+
+}
+```
