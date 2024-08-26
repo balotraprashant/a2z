@@ -7,6 +7,9 @@ This repository contains solutions to various Data Structures and Algorithms pro
 - [Insertion Sort](src/sorting/insertion/Description.md)
 - [Merge Sort](src/sorting/merge/Description.md)
 - [Quick Sort](src/sorting/quick/Description.md)
+
+## Searching Techniques
+
   
 ## Arrays
 - easy
