@@ -8,8 +8,9 @@ This repository contains solutions to various Data Structures and Algorithms pro
 - [Merge Sort](src/sorting/merge/Description.md)
 - [Quick Sort](src/sorting/quick/Description.md)
 
-## Searching Techniques
-
+## Binary Search
+- Binary Search on 1 D Array
+  - [Problem 1: Binary Search to find X in sorted array](src/binarysearch/onedarray/problem1/Description.md)
   
 ## Arrays
 - easy
