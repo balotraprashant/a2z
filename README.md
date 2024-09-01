@@ -7,6 +7,12 @@ This repository contains solutions to various Data Structures and Algorithms pro
 - [Insertion Sort](src/sorting/insertion/Description.md)
 - [Merge Sort](src/sorting/merge/Description.md)
 - [Quick Sort](src/sorting/quick/Description.md)
+
+## Binary Search
+- On 1D Arrays
+  - [Problem 1: Binary Search to find X in sorted array](src/binarysearch/ononedarrays/problem1/SolutionApproach.md)
+  - [Problem 2: Implement Lower Bound](src/binarysearch/ononedarrays/problem2/SolutionApproach.md)
+  - [Problem 3: Implement Upper Bound](src/binarysearch/ononedarrays/problem3/Description.md)
   
 ## Arrays
 - easy
@@ -77,13 +83,6 @@ This repository contains solutions to various Data Structures and Algorithms pro
  
 - Easy
   - [Problem 1: Merge two sorted Linked Lists](src/linkedlist/easy/problem1/Description.md)
-
-
-## Binary Search
-- On 1D Arrays
-  - [Problem 1: Binary Search to find X in sorted array](src/binarysearch/ononedarrays/problem1/SolutionApproach.md)
-  - [Problem 2: Implement Lower Bound](src/binarysearch/ononedarrays/problem2/SolutionApproach.md)
-
 
 ## Graphs
 - learning
