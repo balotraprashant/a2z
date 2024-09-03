@@ -13,6 +13,7 @@ This repository contains solutions to various Data Structures and Algorithms pro
   - [Problem 1: Binary Search to find X in sorted array](src/binarysearch/ononedarrays/problem1/SolutionApproach.md)
   - [Problem 2: Implement Lower Bound](src/binarysearch/ononedarrays/problem2/SolutionApproach.md)
   - [Problem 3: Implement Upper Bound](src/binarysearch/ononedarrays/problem3/Description.md)
+  - [Problem 4: Search Insert Position](src/binarysearch/ononedarrays/problem4/Description.md)
   
 ## Arrays
 - easy
