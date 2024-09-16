@@ -31,10 +31,6 @@ Explanation:
 
 ## Brute Force Approach
 
-We will check the sum of every possible subarray and consider the maximum among them. To get every possible subarray sum, we will be using three nested loops. The first loops(say i and j) will iterate over every possible starting index and ending index of a subarray. Basically, in each iteration, the subarray range will be from index i to index j. Using another loop we will get the sum of the elements of the subarray [i…..j]. Among all values of the sum calculated, we will consider the maximum one.
-
-**Approach:**
-
 The steps are as follows:
 
 - First, we will run a loop(say i) that will select every possible starting index of the subarray. The possible starting indices can vary from index 0 to index n-1(n = size of the array).
@@ -74,10 +70,6 @@ The steps are as follows:
 ## Optimal Approach
 
 The intuition of the algorithm is not to consider the subarray as a part of the answer if its sum is less than 0. **A subarray with a sum less than 0 will always reduce our answer and so this type of subarray cannot be a part of the subarray with maximum sum**.
-
-Here, we will iterate the given array with a single loop and while iterating we will add the elements in a sum variable. Now, if at any point the sum becomes less than 0, we will set the sum as 0 as we are not going to consider any subarray with a negative sum. Among all the sums calculated, we will consider the maximum one.
-
-Thus we can solve this problem with a single loop.
 
 The steps are as follows:
 
