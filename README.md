@@ -14,6 +14,8 @@ This repository contains solutions to various Data Structures and Algorithms pro
   - [Problem 2: Implement Lower Bound](src/binarysearch/ononedarrays/problem2/SolutionApproach.md)
   - [Problem 3: Implement Upper Bound](src/binarysearch/ononedarrays/problem3/Description.md)
   - [Problem 4: Search Insert Position](src/binarysearch/ononedarrays/problem4/Description.md)
+  - [Problem 5: ](src/binarysearch/ononedarrays/problem5/Description.md)
+  - [Problem 6: ](src/binarysearch/ononedarrays/problem6/Description.md)
   
 ## Arrays
 - easy
