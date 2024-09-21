@@ -58,6 +58,7 @@ This repository contains solutions to various Data Structures and Algorithms pro
   - [Problem 8: Count inversions in an array](src/arrays/hard/problem8/Description.md)
   - [Problem 9: Maximum Product Subarray](src/arrays/hard/problem9/Description.md)
   - [Problem 10: Reverse Pairs](src/arrays/hard/problem10/Description.md)
+  - [Problem 11: Maximum Product Subarray](src/arrays/hard/problem11/Description.md)
     
 
 ## Stack and Queues
