@@ -71,6 +71,7 @@ This repository contains solutions to various Data Structures and Algorithms pro
   - [Problem 6: Implement Stack using LinkedList](src/stackandqueues/easy/problem6/Description.md)
   - [Problem 7: Implement Queue using LinkedList](src/stackandqueues/easy/problem7/Description.md)
   - [Problem 8: Implement Min Stack](src/stackandqueues/easy/problem8/Description.md)
+  - [Problem 9: Next Greater Element](src/stackandqueues/easy/problem9/Description.md)
 
 ## Linked List
 - Singly LinkedList
