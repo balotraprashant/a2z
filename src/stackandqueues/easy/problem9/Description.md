@@ -48,3 +48,11 @@ class Solution {
     }
 }
 ```
+
+
+    // What we are doing:
+    // 1. Traversing nums2 from right to left
+    // 2. We have declared a stack, if stack is empty, we put (nums2[i], -1) to map
+    // 3. If stack is not empty, we check nums2[i] > stack.peek(), if yes, we execute pop() operation for all such elements
+    // 4. At last we push nums2[i] to stack
+    // 5. Finally, we get elements from map using nums[i] as key
